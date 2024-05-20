@@ -1,0 +1,432 @@
+/************************* Below 1344 **********************  */
+
+@media (max-width: 84em) {
+  .container {
+    max-width: 120rem;
+  }
+}
+
+/************************* Below 1200 **********************  */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 9.6rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .main-nav-list {
+    gap: 3rem;
+  }
+
+  .founder-text {
+    transform: translateX(-10.5rem);
+  }
+
+  .prerna .step-img {
+    width: 80%;
+  }
+
+  .founder-text .step-description {
+    line-height: 1.5;
+  }
+
+  .founder-text .heading-tertiary {
+    margin-bottom: 1.2rem;
+  }
+}
+
+/************************* Below 1000 **********************  */
+
+@media (max-width: 62.5em) {
+  .container-sm {
+    max-width: 100rem;
+  }
+
+  iframe {
+    height: 40rem;
+    width: 80rem;
+  }
+
+  .main-nav-list {
+    gap: 1.2rem;
+    margin-right: 2.4rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    padding: 1rem 2rem;
+  }
+}
+
+/************************* Below 944 **********************  */
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  /* .heading-primary {
+    font-size: 5.2rem;
+  } */
+
+  .container-sm {
+    max-width: 110rem;
+  }
+
+  .heading-secondary {
+    /* margin-bottom: 1rem; */
+    padding-bottom: 4.8rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.5s ease-in;
+
+    pointer-events: none;
+    visibility: hidden;
+
+    opacity: 0;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+    z-index: 9999;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+
+  .step-number {
+    font-size: 6.4rem;
+  }
+}
+
+/************************* Below 750 **********************  */
+
+@media (max-width: 50em) {
+  html {
+    font-size: 46.875%;
+  }
+
+  .section-how {
+    padding-top: 7.5rem;
+  }
+
+  .section-know-us {
+    padding-top: 7.5rem;
+    margin-top: 0;
+  }
+}
+
+/************************* Below 600 **********************  */
+
+@media (max-width: 43em) {
+  html {
+    font-size: 43.5%;
+  }
+
+  .hero-text-box-inner {
+    padding-top: 9.6rem;
+    width: 75%;
+  }
+
+  .container-sm {
+    max-width: 100rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.8rem;
+    /* margin-bottom: 4.8rem; */
+  }
+
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+
+  .subheading {
+    font-size: 1.4rem;
+  }
+
+  iframe {
+    height: 40rem;
+    width: 70rem;
+  }
+
+  .about-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .values {
+    grid-column: 2/4;
+  }
+
+  .know-team {
+    margin-top: 0 !important;
+    padding-top: 5.2rem;
+  }
+
+  .section-about {
+    padding: 5.2rem 0;
+  }
+}
+
+/************************* Below 512 **********************  */
+
+@media (max-width: 32em) {
+  .partner-logo {
+    height: 4.4rem;
+  }
+
+  .step-img-team {
+    width: 70%;
+  }
+
+  iframe {
+    width: 60rem;
+    height: 45rem;
+  }
+
+  .section-help .step-img-box {
+    display: none;
+  }
+
+  .section-help .step-text-box {
+    grid-column: 1/-1;
+    justify-content: center;
+  }
+
+  .footer .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quick-links-col {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  .btn:link,
+  .btn-visited {
+    padding: 2.4rem 1.6rem;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
+  /* .cta-img-box {
+    background-image: none;
+  } */
+
+  .grid-team {
+    grid-template-columns: 1fr;
+  }
+
+  .know-team .step-img-box {
+    justify-content: center;
+  }
+
+  .team-description {
+    margin-bottom: 3.2rem;
+  }
+
+  .founder-text {
+    transform: translateX(0);
+  }
+
+  .prerna .step-img-team,
+  .aditya .step-img-team,
+  .ambika .step-img-team {
+    width: 50%;
+  }
+
+  .know-team .step-img-box,
+  .know-team .step-img-box,
+  .know-team .step-img-box {
+    transform: translateY(3.2rem);
+  }
+
+  .aditya {
+    grid-row: 1/2;
+  }
+
+  .ambika {
+    grid-row: 3/4;
+  }
+}
+
+/************************* Below 425 **********************  */
+
+@media (max-width: 26.5em) {
+  html {
+    font-size: 36%;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .hero-text-box-inner {
+    width: 90%;
+  }
+
+  /* .heading-secondary {
+    font-size: 2.4rem;
+  }
+
+  .heading-tertiary {
+    font-size: 1.8rem;
+  } */
+
+  .about-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .values {
+    grid-column: span 2;
+  }
+
+  iframe {
+    width: 60rem;
+    height: 60rem;
+  }
+
+  .step-img {
+    width: 50%;
+    box-shadow: 0 1.8rem 2.4rem rgba(0, 0, 0, 0.3);
+  }
+  .step-img-box::after,
+  .step-img-box::before {
+    display: none;
+  }
+
+  .step-img-box {
+    transform: translateY(2.8rem);
+  }
+
+  .img-1 {
+    grid-row: 1/2;
+  }
+
+  .img-3 {
+    grid-row: 5/6;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mission,
+  .vision,
+  .values {
+    width: 75%;
+    justify-self: center;
+  }
+
+  .two-row {
+    grid-column: span 1;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* *************************** FIXING SAFARI FLEXBOX GAP */
+
+.no-flexbox-gap .main-nav-list li:not(:last-child) {
+  margin-right: 4.8rem;
+}
+
+.no-flexbox-gap .list-item:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.no-flexbox-gap .list-icon:not(:last-child) {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .footer-row div:not(:last-child) {
+  margin-right: 6.4rem;
+}
+
+.no-flexbox-gap .social-links li:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.no-flexbox-gap .footer-nav li:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 75em) {
+  .no-flexbox-gap .main-nav-list li:not(:last-child) {
+    margin-right: 3.2rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .no-flexbox-gap .main-nav-list li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 4.8rem;
+  }
+}
